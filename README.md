@@ -16,7 +16,8 @@ A progressive web application to keep track of a budget both online and offline.
 ## User Story
 
 ```md
-AS AN avid traveller I WANT to be able to track my withdrawals and deposits with or without a data/internet connection SO THAT my account balance is accurate when I am traveling
+AS AN avid traveller I WANT to be able to track my withdrawals and deposits with or without a data/internet connection
+SO THAT my account balance is accurate when I am traveling
 ```
 
 ## Screenshots
