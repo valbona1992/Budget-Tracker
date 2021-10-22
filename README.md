@@ -6,9 +6,9 @@ A progressive web application to keep track of a budget both online and offline.
 
 - [User Story](#userstory)
 - [Screenshots](#screenshots)
+- [Technology](#technology)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Technology](#technology)
 - [License](#license)
 - [Contributors](#contributors)
 - [Questions](#questions)
@@ -23,16 +23,6 @@ AS AN avid traveller I WANT to be able to track my withdrawals and deposits with
 
 <img src="public/icons/budgettracker.png" alt="screenshot"/>
 
-## Installation
-
-Run `npm install` to install application dependencies (express, mongoose).
-
-## Usage
-
-This app is deployed on Heroku [here](https://vb-workout-tracker.herokuapp.com/).
-
-To run locally on CML, run `npm start`. Once the server is started,the app can open at localhost:3001 in a browser of choice.
-
 ## Technology
 
 - Node.js
@@ -44,6 +34,16 @@ To run locally on CML, run `npm start`. Once the server is started,the app can o
 - Heroku
 - Service-worker
 - Manifest
+
+## Installation
+
+Run `npm install` to install application dependencies (express, mongoose).
+
+## Usage
+
+This app is deployed on Heroku [here](https://vb-workout-tracker.herokuapp.com/).
+
+To run locally on CML, run `npm start`. Once the server is started,the app can open at localhost:3001 in a browser of choice.
 
 ## Contributors
 
