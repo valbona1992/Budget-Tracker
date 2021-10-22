@@ -43,7 +43,7 @@ Run `npm install` to install application dependencies (express, mongoose).
 
 ## Usage
 
-This app is deployed on Heroku [here](https://vb-workout-tracker.herokuapp.com/).
+This app is deployed on Heroku [here](https://vb-budget-tracker.herokuapp.com/).
 
 To run locally on CML, run `npm start`. Once the server is started,the app can open at localhost:3001 in a browser of choice.
 
