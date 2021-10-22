@@ -1,6 +1,6 @@
 # Budget-Tracker
 
-A web application used to track workout progress by recording multiple workouts, as well as providing the total distance and weights of workouts over the course of seven days. The project uses a MongoDB and node.js to track the workouts over time.
+A progressive web application to keep track of a budget both online and offline. A user can balance their budget by adding entries to the tracker. If the user happens to be offline while adding entries, the entries are stored within a database and then added once the user is back online.
 
 ## Table of Contents
 
@@ -16,13 +16,12 @@ A web application used to track workout progress by recording multiple workouts,
 ## User Story
 
 ```md
-As a user, I want to be able to view create and track daily workouts. I want to be able to log multiple exercises in a workout on a given day. I should also be able to track the name, type, weight, sets, reps, and duration of exercise. If the exercise is a cardio exercise, I should be able to track my distance traveled.
+AS AN avid traveller I WANT to be able to track my withdrawals and deposits with or without a data/internet connection SO THAT my account balance is accurate when I am traveling
 ```
 
 ## Screenshots
 
-<img src="images/screenshot1.png" alt="screenshot"/>
-<img src="images/screenshot2.png" alt="screenshot"/>
+<img src="public/icons/budgettracker.png" alt="screenshot"/>
 
 ## Installation
 
@@ -32,7 +31,7 @@ Run `npm install` to install application dependencies (express, mongoose).
 
 This app is deployed on Heroku [here](https://vb-workout-tracker.herokuapp.com/).
 
-To run locally on CML, run `node server.js`. Once the server is started,the app can open at localhost:3001 in a browser of choice.
+To run locally on CML, run `npm start`. Once the server is started,the app can open at localhost:3001 in a browser of choice.
 
 ## Technology
 
@@ -43,6 +42,8 @@ To run locally on CML, run `node server.js`. Once the server is started,the app 
 - MongoDB
 - Mongoose
 - Heroku
+- Service-worker
+- Manifest
 
 ## Contributors
 
